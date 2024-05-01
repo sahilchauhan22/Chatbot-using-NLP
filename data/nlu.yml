@@ -1,0 +1,162 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - cool
+    - okay
+    - ok
+    - done
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: intro
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - i'm looking for something
+    - i am hungry
+    - i need something to eat
+    - i need something sweet
+    - i need something chilled
+    - how can you help me
+    - how can you help
+    - what's in the menu
+    - i would like to see whats there
+    - whats the most popular dish
+
+- intent: food
+  examples: |
+    - veg
+    - nonveg
+
+- intent: drinks
+  examples: |
+    - cocktails
+    - mocktails
+
+- intent: ice-cream
+  examples: |
+    - cone
+    - cup
+
+- intent: veg
+  examples: |
+    - pav_bhaji
+    - pizza
+    - chole_bhature
+    - dosa
+    - burger
+
+- intent: nonveg
+  examples: |
+   - chicken_tikka
+   - mutton_biryani
+   - prawns
+   - fish
+   - crabs
+
+- intent: mocktails
+  examples: |
+   - blue_lagoon_lemonade
+   - virgin_mojito
+   - pinnacolada
+   - strawberry_spritzers
+
+- intent: cocktails
+  examples: |
+   - bloody_mary
+   - gimlet
+   - dark_and_stromy
+   - french_75
+
+- intent: cup
+  examples: |
+   - chocolate
+   - tender_coconut
+   - blue_berry
+   - vanila
+
+- intent: cone
+  examples: |
+   - oreo
+   - blackcurrent
+   - doublechocolate
+   - kitkat
+
+- intent: spicy
+  examples: |
+   - What is avaiable in spicy food?
+   - can you please suggest what is in spicy food?
+   - spicy
+   - very spicy
+
+- intent: finish
+  examples: |
+   - complete order
+   - place order
+   - order
+
+- intent: pay
+  examples: |
+   - mode of payment
+   - how can i pay
+   - payment
+   - options for payment
+   - check out
+   - check
+
+- intent: phone_no
+  examples: |
+   - 9324048785
+   - 8484090575
+
+- intent: prev
+  examples: |
+   - May i know my previous orders ?
+   - what were my previous order
+   - what were my recent orders
+   - what are my most ordered
+   - what i had yesterday
+
+
+- intent: amount
+  examples: |
+   - suggest me something for dinner ?
+   - suggest something popular
+   - suggest something top selling
+   - order me something sweet and cold
+   - i want to order something refreshing ? 
+
+
+- intent: blackcurrent
+  examples: |
+   - finish
+
+- intent: index
+  examples: |
+   - provide me whole menu
+   - what do you have in your menu
+   - give me entire list of items
+   - provide menu with pricing
+   - price list
+
+
+
+
+

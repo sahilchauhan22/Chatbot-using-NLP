@@ -1,0 +1,1466 @@
+version: "3.1"
+
+stories:
+
+# - story: tell menu
+#   steps:
+#   - intent: menu
+#   - action: utter_menu
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+
+# - story: food path 
+#   steps:
+#   - intent: food
+#   - action: utter_food
+
+# - story: drinks path 
+#   steps:
+#   - intent: drinks
+#   - action: utter_drinks
+
+# - story: ice_cream path
+#   steps:
+#   - intent: ice_cream
+#   - action: utter_ice_cream
+
+# - story: veg path 
+#   steps:
+#   - intent: veg
+#   - action: utter_veg
+
+# - story: nonveg path 
+#   steps:
+#   - intent: nonveg
+#   - action: utter_nonveg
+
+# - story: cocktails path 
+#   steps:
+#   - intent: cocktails
+#   - action: utter_cocktails
+
+# - story: mocktails path 
+#   steps:
+#   - intent: mocktails
+#   - action: utter_mocktails
+
+# - story: cone path 
+#   steps:
+#   - intent: cone
+#   - action: utter_cone
+
+# - story: cup path 
+#   steps:
+#   - intent: cup
+#   - action: utter_cup
+  
+- story: spicy path 
+  steps:
+  - intent: spicy
+  - action: utter_spicy
+
+- story: finish path 
+  steps:
+  - intent: finish
+  - action : utter_finish
+
+
+# # veg Pizza Cash
+# - story: finish path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: veg
+#   - action: utter_veg
+#   - intent: pizza
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: cash
+#   - action: utter_greet_msg
+
+# # veg pizza upi
+# - story: finish path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: veg
+#   - action: utter_veg
+#   - intent: pizza
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: upi
+#   - action: utter_qr_code
+
+
+
+# # veg chole_bhature Cash
+# - story: finish path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: veg
+#   - action: utter_veg
+#   - intent: chole_bhature
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: cash
+#   - action: utter_greet_msg
+
+# # veg chole_bhature upi
+# - story: finish path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: veg
+#   - action: utter_veg
+#   - intent: chole_bhature
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: upi
+#   - action: utter_qr_code
+
+
+
+# veg pav bhaji Cash
+- story: finish path 3
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: pav_bhaji
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# veg pav bhaji upi
+- story: finish path 3
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: pav_bhaji
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+
+# veg dosa Cash
+- story: finish path 4
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: dosa
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# veg dosa upi
+- story: finish path 4
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: dosa
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+# # veg burger Cash
+# - story: finish path 5
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: veg
+#   - action: utter_veg
+#   - intent: burger
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: cash
+#   - action: utter_greet_msg
+
+# # veg burger upi
+# - story: finish path 5
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: veg
+#   - action: utter_veg
+#   - intent: burger
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: upi
+#   - action: utter_qr_code
+
+
+# ------------------- NON VEG ----------------------
+
+# non veg chicken_tikka Cash
+- story: finish path 6
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: chicken_tikka
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# non veg chicken_tikka upi
+- story: finish path 6
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: chicken_tikka
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+# # non veg mutton_biryani Cash
+# - story: finish path 7
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: nonveg
+#   - action: utter_nonveg
+#   - intent: mutton_biryani
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: cash
+#   - action: utter_greet_msg
+
+# # non veg mutton_biryani upi
+# - story: finish path 7
+#   steps:
+#   - intent: greet
+#   - action: utter_happy
+#   - intent: intro
+#   - action: utter_intro
+#   - intent: startnew
+#   - action: utter_menu
+#   - intent: food
+#   - action: utter_food
+#   - intent: nonveg
+#   - action: utter_nonveg
+#   - intent: mutton_biryani
+#   - action: utter_finish
+#   - intent: finish
+#   - action: utter_pay
+#   - intent: upi
+#   - action: utter_qr_code
+
+
+
+# non veg prawns Cash
+- story: finish path 8
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: prawns
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# non veg prawns upi
+- story: finish path 8
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: prawns
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+# non veg fish Cash
+- story: finish path 9
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: fish
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# non veg fish upi
+- story: finish path 9
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: fish
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+# non veg crabs Cash
+- story: finish path 10
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: crabs
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# non veg crabs upi
+- story: finish path 10
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: crabs
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#--------------------------------------- DRINKS-----------------
+
+#  mocktails blue_lagoon_lemonade Cash
+- story: finish path 11
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: blue_lagoon_lemonade
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# mocktails blue_lagoon_lemonade upi
+- story: finish path 11
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: blue_lagoon_lemonade
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  mocktails virgin_mojito Cash
+- story: finish path 12
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: virgin_mojito
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# mocktails virgin_mojito upi
+- story: finish path 12
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: virgin_mojito
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  mocktails pinnacolada Cash
+- story: finish path 13
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: pinnacolada
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# mocktails pinnacolada upi
+- story: finish path 13
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: pinnacolada
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  mocktails strawberry_spritzers Cash
+- story: finish path 14
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: strawberry_spritzers
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# mocktails strawberry_spritzers upi
+- story: finish path 14
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: strawberry_spritzers
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  cocktails bloody_mary  Cash
+- story: finish path 15
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: bloody_mary
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cocktails bloody_mary upi
+- story: finish path 15
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: bloody_mary
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  cocktails gimlet  Cash
+- story: finish path 16
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: gimlet
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cocktails gimlet upi
+- story: finish path 16
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: gimlet
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cocktails dark_and_stromy  Cash
+- story: finish path 17
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: dark_and_stromy
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cocktails dark_and_stromy upi
+- story: finish path 17
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: dark_and_stromy
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  cocktails french_75  Cash
+- story: finish path 18
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: french_75
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cocktails french_75 upi
+- story: finish path 18
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: cocktails
+  - action: utter_cocktails
+  - intent: french_75
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#---------------------------------------- ice cream --------------------------------------
+
+#  cone oreo Cash
+- story: finish path 19
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: oreo
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cone oreo upi
+- story: finish path 19
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: oreo
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cone blackcurrent Cash
+- story: finish path 20
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: blackcurrent
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cone blackcurrent upi
+- story: finish path 20
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: blackcurrent
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cone doublechocolate Cash
+- story: finish path 21
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: doublechocolate
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cone doublechocolate upi
+- story: finish path 21
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: doublechocolate
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cone kitkat Cash
+- story: finish path 22
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: kitkat
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+# cone kitkat upi
+- story: finish path 22
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cone
+  - action: utter_cone
+  - intent: kitkat
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+#  cup chocolate Cash
+- story: finish path 23
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: chocolate
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+#  cup chocolate upi
+- story: finish path 23
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: chocolate
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cup tender_coconut Cash
+- story: finish path 24
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: tender_coconut
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+#  cup tender_coconut upi
+- story: finish path 24
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: tender_coconut
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cup blue_berry Cash
+- story: finish path 25
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: blue_berry
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+#  cup blue_berry upi
+- story: finish path 25
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: blue_berry
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+#  cup vanila Cash
+- story: finish path 26
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: vanila
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_greet_msg
+
+#  cup vanila upi
+- story: finish path 26
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: ice_cream
+  - action: utter_ice_cream
+  - intent: cup
+  - action: utter_cup
+  - intent: vanila
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+#--------------------------------------------------------------------------
+- story : phone_no path
+  steps:
+  - intent: phone_no
+  - action: utter_phone_no
+
+
+# for prev oders 
+# upi
+- story: finish path 27
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: prev
+  - action: utter_prev
+  - intent: phone_no
+  - action: utter_phone_no
+  - intent: prevorder
+  - action: utter_qr_code
+
+
+
+
+# back to menu---------------------------------------------------------------------------
+#food burger pav bhaji
+- story: finish path 28
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: burger
+  - action: utter_finish
+  - intent: menu
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: pav_bhaji
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_happy
+
+
+
+# veg burger upi
+- story: finish path 28
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: burger
+  - action: utter_finish
+  - intent: finish
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: pav_bhaji
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+
+#food pizza chicken tikka 
+- story: finish path 29
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: pizza
+  - action: utter_finish
+  - intent: menu
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: chicken_tikka
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_happy
+
+#  upi
+- story: finish path 29
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: pizza
+  - action: utter_finish
+  - intent: finish
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: chicken_tikka
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+
+
+#food  birynai prawns
+- story: finish path 30
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: mutton_biryani
+  - action: utter_finish
+  - intent: menu
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: prawns
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_happy
+
+#  upi
+- story: finish path 30
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: mutton_biryani
+  - action: utter_finish
+  - intent: finish
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: nonveg
+  - action: utter_nonveg
+  - intent: prawns
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+
+
+
+#food  chole bhature and strawberry_spritzers
+- story: finish path 31
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: chole_bhature
+  - action: utter_finish
+  - intent: menu
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: strawberry_spritzers
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: cash
+  - action: utter_happy
+
+#  upi
+- story: finish path 31
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: intro
+  - action: utter_intro
+  - intent: startnew
+  - action: utter_menu
+  - intent: food
+  - action: utter_food
+  - intent: veg
+  - action: utter_veg
+  - intent: chole_bhature
+  - action: utter_finish
+  - intent: finish
+  - action: utter_menu
+  - intent: drinks
+  - action: utter_drinks
+  - intent: mocktails
+  - action: utter_mocktails
+  - intent: strawberry_spritzers
+  - action: utter_finish
+  - intent: finish
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+#------------------------------------------
+
+- story: amount path 1
+  steps:
+  - intent: greet
+  - action: utter_happy
+  - intent: amount
+  - action: utter_amount
+  - intent: pay
+  - action: utter_pay
+  - intent: upi
+  - action: utter_qr_code
+
+
+- story: index path 1
+  steps:
+  - intent: index
+  - action: utter_index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
