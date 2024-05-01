@@ -1,0 +1,301 @@
+version: "3.1"
+
+intents:
+  - greet
+  - menu
+  - food
+  - drinks
+  - ice_cream
+  - veg
+  - nonveg
+  - cocktails
+  - mocktails
+  - cone
+  - cup
+# veg
+  - pav_bhaji
+  - pizza
+  - chole_bhature
+  - dosa
+  - burger
+#non veg
+  - chicken_tikka
+  - mutton_biryani
+  - prawns
+  - fish
+  - crabs
+# mocktail
+  - blue_lagoon_lemonade
+  - virgin_mojito
+  - pinnacolada
+  - strawberry_spritzers
+# cocktail
+  - bloody_mary
+  - gimlet
+  - dark_and_stromy
+  - french_75
+#cup
+  - chocolate
+  - tender_coconut
+  - blue_berry
+  - vanila
+#cone
+  - oreo
+  - blackcurrent
+  - doublechocolate
+  - kitkat
+
+  - spicy
+  - sp_pav_bhaji
+  - sp_chicken_tikka
+  - sp_mutton_biryani
+
+  - finish
+
+  - pay
+  - cash
+  - upi
+  - qr_code
+
+  - greet_msg
+
+  #db
+  - phone_no
+  #prev orders
+  - intro
+  - prev
+  - startnew
+  - prevorder
+
+  - amount
+  - index
+responses:
+
+  utter_index:
+  - text: "Our Menu"
+    image: "https://lh3.googleusercontent.com/p/AF1QipPAVksjNvCPOyYMS3Fs17Mp7tgKltwVDVQs9HyD=w1170-h724-p-k"
+
+
+  utter_amount:
+  - text: "here's my suggestion for you
+
+            .    Chole Bhature    Price - 370rs
+
+            .    Virgin Mojito    Price - 250rs 
+            .          total - 620rs"
+    buttons:
+      - title: "Pay here"
+        payload: "/pay"
+    
+
+  utter_intro:
+  - text: "Continue with...."
+    buttons:
+      - title: "Previously ordered ? "
+        payload: "/prev"
+      - title: "Start New"
+        payload: "/startnew"
+
+# for prev orders
+  utter_prev:
+  - text: "Enter your Phone Number : "
+
+# db
+  utter_phone_no:
+  - text: "Your previous orders were:
+             1)Pav Bhaji 
+             2)Bloody Mary"
+    buttons:
+      - title: "Re-order"
+        payload: "/prevorder"
+
+# utter_prevorder
+  utter_prevorder:
+  - text: " Your order is added
+            Proceed to Pay"
+    buttons: 
+      - title: "Make Payment"
+        payload: "/pay"
+          
+
+  utter_menu:
+  - text: "what you looking for? "
+    buttons:
+      - title: "Food"
+        payload: "/food"
+      - title: "Drinks"
+        payload: "/drinks"
+      - title: "Ice-cream"
+        payload: "/ice_cream"
+
+   # food
+  utter_food:
+  - text: "Which would you prefer ? "
+    buttons:
+      - title: "Veg"
+        payload: "/veg"
+      - title: "Non Veg"
+        payload: "/nonveg"
+
+  # veg
+  utter_veg:
+  - text: "Choose"
+    buttons:
+      - title: "Pav Bhaji"
+        payload: "/pav_bhaji"
+      - title: "Pizza"
+        payload: "/pizza"
+      - title: "Chole Bhature"
+        payload: "/chole_bhature"
+      - title: "Dosa"
+        payload: "/dosa"
+      - title: "Burger"
+        payload: "/burger"
+
+  # non veg
+  utter_nonveg:
+  - text: "Choose"
+    buttons:
+      - title: "Chicken Tikka"
+        payload: "/chicken_tikka"
+      - title: "Mutton Biryani"
+        payload: "/mutton_biryani"
+      - title: "Prawns"
+        payload: "/prawns"
+      - title: "Fish"
+        payload: "/fish"
+      - title : "Crabs"
+        payload: "/crabs"
+      
+
+   # drinks
+  utter_drinks:
+  - text: "Which would you prefer ? "
+    buttons:
+      - title: "Cocktails"
+        payload: "/cocktails"
+      - title: "Mocktails"
+        payload: "/mocktails"
+
+  # cocktails
+  utter_cocktails:
+  - text: "Choose"
+    buttons:
+      - title: "Bloody Mary"
+        payload: "/bloody_mary"
+      - title: "Gimlet"
+        payload: "/gimlet"
+      - title: "Dark And Stromy"
+        payload: "/dark_and_stromy"
+      - title: "French 75"
+        payload: "/french_75"
+
+  # mocktails
+  utter_mocktails:
+  - text: "Choose"
+    buttons:
+      - title: "Blue Lagoon Lemonade"
+        payload: "/blue_lagoon_lemonade"
+      - title: "Virgin Mojito"
+        payload: "/virgin_mojito"
+      - title: "Pinnacolada"
+        payload: "/pinnacolada"
+      - title: "Strawberry Spritzers"
+        payload : "/strawberry_spritzers"
+  
+
+# ice cream
+  utter_ice_cream:
+  - text: "Which would you prefer ? "
+    buttons:
+      - title: "Ice-cream Cup"
+        payload: "/cup"
+      - title: "Ice-cream Cone"
+        payload: "/cone"
+
+# cup
+  utter_cup:
+  - text: "Choose"
+    buttons:
+      - title: "Chocolate"
+        payload: "/chocolate"
+      - title: "Tender Coconut"
+        payload: "/tender_coconut"
+      - title: "Blue Berry"
+        payload: "/blue_berry"
+      - title: "Vanila"
+        payload: "/vanila"
+
+# cone
+  utter_cone:
+  - text : "Choose"
+    buttons:
+      - title: "Oreo"
+        payload: "/oreo"
+      - title: "Blackcurrent"
+        payload: "/blackcurrent"
+      - title: "Doublechocolate"
+        payload: "/doublechocolate"
+      - title: "Kitkat"
+        payload: "/kitkat"
+
+# spicy
+  utter_spicy:
+  - text: "This are some of my suggestions : "
+    buttons:
+      - title: "Chicken Tikka"
+        payload: "/sp_chicken_tikka"
+      - title: "Pav Bhaji"
+        payload: "/sp_pav_bhaji"
+      - title: "Mutton Biryani"
+        payload: "/sp_mutton_biryani"
+
+# finish
+  utter_finish:
+  - text: "Select"
+    buttons:
+      - title: "Proceed to pay"
+        payload: "/finish"
+      - title: "Back to Menu"
+        payload: "/menu"
+
+# pay
+  utter_pay:
+  - text: "How would you like to pay ? "
+    buttons:
+      - title: "Cash"
+        payload: "/cash"
+      - title: "UPI"
+        payload: "/upi"
+
+# qr_code
+  utter_qr_code:
+  - text: "Scan the below QR for payment!"
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Qrcode_wikipedia.jpg"
+  - text: "Thank you!"
+
+
+
+# greet_msg
+  utter_greet_msg:
+  - text: "Thank you! "
+
+
+
+
+      
+
+  utter_happy:
+  - text: "Greetings! How can I assist?"
+  - text: "Good day! What can I do for you today? "
+  - text: "Hello, How can I help you?"
+
+  utter_issues_retry:
+    - text: "Anything else ? "
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
